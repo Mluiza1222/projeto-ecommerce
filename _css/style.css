@@ -16,8 +16,8 @@ nav#menu{
     }
 
     body {
-        background: rgb(255,9,9);
-        background: linear-gradient(90deg, rgba(255,9,9,0.9332107843137255) 3%, rgba(187,10,10,1) 31%, rgba(49,9,87,1) 58%, rgba(33,25,55,1) 84%);
+        background: rgb(rgb(255, 10, 10));
+        
     }
 
     header {
