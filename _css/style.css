@@ -17,19 +17,23 @@ nav#menu{
 
 nav#menu li{
         display: inline-block;
-        background-color: rgb(rgb(255, 10, 10));
+        background: aqua;
+        background-color: rgba(250, 161, 27, 0.788);
+        padding: 10px;
+
         padding: 10px;
     }
 
 body {
-        background: rgb(rgb(255, 10, 10));
+        background: aqua;
+        background: rgba(250, 161, 27, 0.788);
         
     }
 
 header {
-        background-color: antiquewhite;
+        background-color: rgb(197, 138, 61);
         padding-top: 70px;
-        padding-bottom: 20px;
+        padding-bottom: 25px;
         position: relative;
     }
 
@@ -37,20 +41,36 @@ header {
 
 nav#menu a:link{
         text-decoration: none;
-        color: antiquewhite;
+        color: rgb(197, 138, 61);
         font-weight: bold;
     }
 
 nav#menu a:visited{
         text-decoration: none;
-        color: antiquewhite;
+        color: aqua;
         font-weight: bold;
     }
 
 nav#menu a:hover{
-     color: rgb(rgb(131, 8, 8));
+     color:  rgb(156, 102, 31);
     }
 
 nav#menu li:hover{
-     background-color: rgb(rgb(114, 11, 11));
+     background:aqua;
+     background: linear-gradient( rgb(156, 102, 31););
+}
+
+/* manipulação de imagens do projeto, página produtos */
+.produtos img{
+     max-width: 300px;
+
+}
+
+.produtos p{
+    color: white;
+    font-weight: bold;
+}
+
+.precoDesc{
+    font-size: 25px;
 }
