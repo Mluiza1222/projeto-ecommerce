@@ -18,7 +18,7 @@ nav#menu{
 nav#menu li{
         display: inline-block;
         background: aqua;
-        background-color: rgba(250, 161, 27, 0.788);
+        background-color: rgba(241, 176, 78, 0.788);
         padding: 10px;
 
         padding: 10px;
@@ -26,7 +26,7 @@ nav#menu li{
 
 body {
         background: aqua;
-        background: rgba(250, 161, 27, 0.788);
+        background: rgba(241, 176, 78, 0.788);
         
     }
 
@@ -41,7 +41,7 @@ header {
 
 nav#menu a:link{
         text-decoration: none;
-        color: rgb(197, 138, 61);
+        color: rgba(241, 176, 78, 0.788);
         font-weight: bold;
     }
 
@@ -52,12 +52,12 @@ nav#menu a:visited{
     }
 
 nav#menu a:hover{
-     color:  rgb(156, 102, 31);
+     color:   rgba(241, 176, 78, 0.788);
     }
 
 nav#menu li:hover{
      background:aqua;
-     background: linear-gradient( rgb(156, 102, 31););
+     background: linear-gradient(  rgba(241, 176, 78, 0.788););
 }
 
 /* manipulação de imagens do projeto, página produtos */
